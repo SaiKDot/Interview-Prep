@@ -179,3 +179,9 @@ https://bigfrontend.dev/
 https://bigfrontend.dev/quiz
 https://dev.to/devabhijeet/all-front-end-interview-questions-asked-during-my-recent-job-hunt-1kge
 https://devchallenges.io/challenges
+
+https://github.com/lydiahallie/javascript-questions
+https://github.com/sudheerj/javascript-interview-questions
+
+## buffer
+## child process
