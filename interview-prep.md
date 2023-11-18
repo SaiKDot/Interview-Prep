@@ -187,26 +187,42 @@ The difference between module.exportsand exports?
 Why aren't top-level variables global in modules?
 What are circular module dependencies in Node?
 
-https://bigfrontend.dev/
-https://bigfrontend.dev/quiz
-https://dev.to/devabhijeet/all-front-end-interview-questions-asked-during-my-recent-job-hunt-1kge
-https://devchallenges.io/challenges
-https://github.com/YauhenKavalchuk/interview-questions
-https://github.com/YauhenKavalchuk/interview-questions/tree/main/questions
-## memcached
-
-https://github.com/lydiahallie/javascript-questions
-https://github.com/sudheerj/javascript-interview-questions
-https://github.com/ElemeFE/node-interview
-https://github.com/tshemsedinov/NodeJS-Interview-Questions
-https://www.youtube.com/watch?v=Jw2pniZCLi8
-https://www.youtube.com/watch?v=FdaVsce3ftQ
-https://www.youtube.com/watch?v=CA1Z_c9Sf1Y
-https://www.youtube.com/watch?v=w9y7mFiiH3g
-https://www.youtube.com/watch?v=J-6xrBmqnMI
-https://www.youtube.com/watch?v=GeoohyU8Qxw
 ## buffer
 ## child process
+## memcached
+
+https://bigfrontend.dev/
+
+https://bigfrontend.dev/quiz
+
+https://dev.to/devabhijeet/all-front-end-interview-questions-asked-during-my-recent-job-hunt-1kge
+
+https://devchallenges.io/challenges
+
+https://github.com/YauhenKavalchuk/interview-questions
+
+https://github.com/YauhenKavalchuk/interview-questions/tree/main/questions
+
+https://github.com/lydiahallie/javascript-questions
+
+https://github.com/sudheerj/javascript-interview-questions
+
+https://github.com/ElemeFE/node-interview
+
+https://github.com/tshemsedinov/NodeJS-Interview-Questions
+
+[Backend Mock Coding Interview - Node JS - YouTube](https://www.youtube.com/watch?v=Jw2pniZCLi8)
+
+https://www.youtube.com/watch?v=FdaVsce3ftQ
+
+https://www.youtube.com/watch?v=CA1Z_c9Sf1Y
+
+https://www.youtube.com/watch?v=w9y7mFiiH3g
+
+https://www.youtube.com/watch?v=J-6xrBmqnMI
+
+https://www.youtube.com/watch?v=GeoohyU8Qxw
+
 
 
 
@@ -215,31 +231,70 @@ https://github.com/Advanced-Frontend/Daily-Interview-Question
 
 
 https://www.youtube.com/@itscodingdoctor/videos
+
 https://www.youtube.com/@RoadsideCoder
+
 https://www.youtube.com/watch?v=cBsB7hhOzQI
 
 
 https://www.youtube.com/watch?v=7-FUiAFwEVA
+
 https://www.youtube.com/watch?v=gF5cR6mn8ag
+
 https://www.youtube.com/watch?v=miW4Ul002z4
+
 https://www.youtube.com/watch?v=WQCRXJdlnoU
+
 https://www.youtube.com/watch?v=szXMBGKGTdE
+
 https://www.youtube.com/watch?v=D_lpuK_Hs8U
+
 https://www.youtube.com/watch?v=KMu6SlIJ7H4
+
+
 https://www.youtube.com/watch?v=9Ez_gdsgGiM
+
 https://www.youtube.com/watch?v=C1qOaRdSwwc
+
 https://www.youtube.com/shorts/x-ntJfVT_h4
+
 https://www.youtube.com/watch?v=sAF7Km_znjA
+
 https://www.youtube.com/watch?v=cBsB7hhOzQI
+
 https://www.youtube.com/watch?v=yQHr4opz_N0
+
 https://www.youtube.com/watch?v=QQNjidzLZ8E
+
 https://www.youtube.com/shorts/uGIiD8M7Pto
 
 
+
 https://www.youtube.com/playlist?list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8
+
 https://www.youtube.com/playlist?list=PLENVRtTDG0ocMlPIxNjHfZo9P0_Pif73O
 
 
 
 https://www.youtube.com/shorts/Uv-5lzGz81A
+
 https://www.youtube.com/watch?v=flFf826w_sc
+
+https://www.youtube.com/watch?v=EKEpVhi-29Q
+
+
+https://dev.to/frontendengineer/10-reactjs-coding-exercises-with-codepen-exercise-and-solution--22k7
+
+
+## SSR vs RSC
+- SSR runs on server and is sent to the client and is later hydrated.
+- SSR initially loads the whole page, which is suitable for the initial load but not for the subsequent updates
+
+
+- RSC runs on server, but cannot be hydrated. We cannot use hooks in SRC. unless "use client".
+- RSC helps us keep the state. 
+- In RSC each component is responsible for fetching its own data. Unlike in SSR where the data is fetched by the page and is apssed to the components
+- RSC doesn't sent html, it sends a type text which looks similar to json
+
+ [What is CSR SSR SSG and ISR - YouTube](https://www.youtube.com/watch?v=YkxrbxoqHDw )
+
