@@ -186,10 +186,59 @@ What's happened npm?
 The difference between module.exportsand exports?
 Why aren't top-level variables global in modules?
 What are circular module dependencies in Node?
+## put vs patch
+## options method in context of the rest api
+## CORS
+## How to connect to DB
+## Connect Node to Postgresql which package ?
+## what security implementation can we do in node js?
+ DDOS attacts - middleware called as helmet
+- How to make things Fast Like api Call ?
 
 ## buffer
 ## child process
 ## memcached
+
+
+# Mongo DB
+
+## Aggregate 
+It groups values from multiple documenrs and returns the computed result
+
+Three methods to perform aggregation
+- aggregation pipeline
+- the map-reduce function
+- single purpose aggregation methods and commands
+
+## aggregation pipline
+
+Aggregate pipeline is process with series of stages that computes data successively
+
+## Sharding in Mongodb
+Sharding in MongoDB is a technique used to **horizontally scale** a MongoDB database across multiple servers or nodes. It involves dividing a large dataset into smaller, more manageable chunks called shards. Each shard is stored on a separate server or replica set, and the data is distributed among these shards based on a sharding key. 
+
+1. Scalability
+2. Increased Throughput
+3. Storage Capacity
+4. Improved Query Performance
+5. High Availability
+6. Geographic Distribution
+7. Isolation of Workloads
+
+## Mongoose
+Mongoose is a ODM - object document mapper. Helps in creating strongly typed model schema. Facilitates schema based modeling system. Cool featuers like type casting , query building, business logic hooks
+
+## Does MongoDB support Foreign key constraints?
+No. It does not support any constraints. There is no cascading deletes or cascading updates. It is up the developer to create relation between documets.
+
+## How does nodejs manges child threads.
+
+## Buffer in Nodejs
+Buffers are temp memorty that is manily used by streams to hold some data until it is consumed.
+It is used to represent fixed length sequence of bytes.
+
+
+
 
 https://bigfrontend.dev/
 
@@ -234,15 +283,19 @@ https://www.youtube.com/@itscodingdoctor/videos
 
 https://www.youtube.com/@RoadsideCoder
 
-https://www.youtube.com/watch?v=cBsB7hhOzQI
+[React JS Interview Questions ( Pagination ) - Frontend Machine Coding Interview Experience - YouTube](https://www.youtube.com/watch?v=cBsB7hhOzQI)
 
 
-https://www.youtube.com/watch?v=7-FUiAFwEVA
+[Turing's Live Coding Challenge | Node.JS Mock Interview - YouTube](https://www.youtube.com/watch?v=7-FUiAFwEVA)
 
-https://www.youtube.com/watch?v=gF5cR6mn8ag
+[Dark Mode Challenge](https://www.youtube.com/watch?v=gF5cR6mn8ag)
 
-https://www.youtube.com/watch?v=miW4Ul002z4
+[STar Rating - YouTube](https://www.youtube.com/watch?v=miW4Ul002z4)
 
+[Stepper component in React | Frontend machine coding question](https://www.youtube.com/watch?v=D_aVRMu3acw)
+[Mid-level React Interview - YouTube](https://www.youtube.com/watch?v=zue3lAZyAec)
+[Senior React JS Interview Question - YouTube](https://www.youtube.com/watch?v=HJoC6hl4J-4)
+[Cracking the Frontend Interview - YouTube](https://www.youtube.com/playlist?list=PLlasXeu85E9fkCH4XgL2GEh0Bd1IHEaGL)
 https://www.youtube.com/watch?v=WQCRXJdlnoU
 
 https://www.youtube.com/watch?v=szXMBGKGTdE
@@ -285,6 +338,7 @@ https://www.youtube.com/watch?v=EKEpVhi-29Q
 
 https://dev.to/frontendengineer/10-reactjs-coding-exercises-with-codepen-exercise-and-solution--22k7
 
+https://www.youtube.com/watch?v=xejr5Uv_sAQ&list=PL_KW_uw2ITn84SjTLNQsugTU3hU4_EwLM
 
 ## SSR vs RSC
 - SSR runs on server and is sent to the client and is later hydrated.
@@ -298,3 +352,17 @@ https://dev.to/frontendengineer/10-reactjs-coding-exercises-with-codepen-exercis
 
  [What is CSR SSR SSG and ISR - YouTube](https://www.youtube.com/watch?v=YkxrbxoqHDw )
 
+## selector
+ selector accepts the state as an argument, and returns the data
+
+ - shallow comparison vs deep comparison
+ - usereducer vs useState
+ - AbortController
+ - usecontext vs usememo
+ - lazy loading
+ - fetch vs axios
+
+
+ # General
+
+ ## Types of sorting algorithm
